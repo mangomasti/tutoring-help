@@ -1,0 +1,8 @@
+Student(PK(StudentID), Name, Email, Phone, School)
+Course(PK (CourseID), Course_num, Professor, Description)
+Tutor(PK(TutorID), Name, Email, Phone, Experience)
+Offering(PK(OfferingID), Rate, Experience, CourseID, TutorID)
+WaitlistEntry(PK(WaitlistEntryID), RequestDate, Status, StudentID, CourseID)
+StudentTutorRequest(PK(Request_num), PreferredTime, RequestedTopic, StudentID)
+Match(MatchID, MatchStatus, PaymentStatus, Request_num, OfferingID)
+Review(PK(ReviewID), Rating, Feedback, MatchID)

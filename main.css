@@ -1,0 +1,143 @@
+:root {
+  --text-size-xs: 0.64rem;
+  --text-size-sm: 0.8rem;
+  --text-size-md: 1rem;
+  --text-size-lg: 1.25rem;
+  --text-size-xl: 1.56rem;
+  --text-size-2xl: 1.95rem;
+  --text-size-3xl: 2.44rem;
+  --text-size-4xl: 3.05rem;
+  --text-size-5xl: 3.81rem;
+  --black: #2E3024;
+  --light-blue: #A9FEFB;
+  --gray-blue: #8EABB8;
+  --white: #EFF3F4;
+}
+
+
+table, th, td {
+    border: 1px solid black; 
+}
+
+body {
+    background-color: var(--white);
+    /* padding-left: 10px;
+    padding-right: 10px;  */
+}
+
+header {
+    border-bottom: 3px solid var(--light-blue);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: var(--gray-blue);
+}
+
+.links {
+    display: flex; 
+    gap: 15px; 
+    padding-bottom: 10px; 
+}
+
+h1 {
+    color: var(--white);
+    text-decoration: underline double; 
+}
+
+h2 {
+    text-align: center; 
+}
+
+.images-index {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.images-index img {
+    border: 1px solid black; 
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+
+ul {
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid var(--gray-blue);
+    background-color: var(--gray-blue);
+    border-top: 3px solid var(--light-blue);
+}
+
+footer p {
+    margin: 0; 
+    padding: 10px 50px; 
+}
+
+.white-text {
+    color: var(--white);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+section {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 40px; 
+}
+
+th, td {
+    padding: 8px 12px;
+}
+
+.form-h2 {
+    text-decoration: underline;
+}
+
+.form-container {
+    display: flex; 
+    flex-direction: column; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    background-color: white; 
+    border: 3px solid var(--light-blue);
+    border-radius: 30px;
+    padding-bottom: 20px;
+    margin: 0 1rem 1.5rem 1rem;
+}
+
+.form-sections {
+    flex-direction: row; 
+    gap: 70px;
+}
+
+form h3 {
+    color: var(--gray-blue);
+}
+
+form label {
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 1.5rem;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+}
